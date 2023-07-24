@@ -7,8 +7,9 @@
     border-radius: 4px;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: flex-start;
     position: relative;
+    padding: 2%;
 }
 section.filters button{
     font-size: 18px;
@@ -31,6 +32,8 @@ section.filters button:hover {
     width: 25%;
     border-right: 1px solid #DDDDDD;
     margin-left: auto;
+    text-align: left;
+    order: 0;
 }
 .amenities{
     height: 100%;
